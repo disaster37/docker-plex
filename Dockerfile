@@ -18,3 +18,7 @@ RUN mkdir /data_unrar
 RUN apt-get remove -y autoconf build-essential git automake && \
     apt autoremove -y
 RUN rm -rf /tmp/* /var/tmp/*
+
+# Add start script
+COPY start_rar2fs.sh /start_rar2fs.sh
+CMD ["/start_rar2fs.sh"]
