@@ -1,4 +1,4 @@
-FROM timhaak/plex:latest
+FROM plexinc/pms-docker:latest
 MAINTAINER Sebastien LANGOUREAUX <linuxworkgroup@hotmail.com>
 
 
