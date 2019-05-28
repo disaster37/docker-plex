@@ -20,5 +20,5 @@ RUN apt-get remove -y autoconf build-essential git automake && \
 RUN rm -rf /tmp/* /var/tmp/*
 
 # Add start script
-COPY start_rar2fs.sh /start_rar2fs.sh
-CMD ["/start_rar2fs.sh"]
+COPY start_rar2fs.sh /etc/cont-init.d/00-start_rar2fs.sh
+
