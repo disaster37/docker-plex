@@ -4,7 +4,7 @@ MAINTAINER Sebastien LANGOUREAUX <linuxworkgroup@hotmail.com>
 
 # Add libs & tools
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends libfuse-dev autoconf automake wget build-essential git  && \
+    apt-get install -y --no-install-recommends libfuse-dev autoconf automake wget build-essential git mpv  && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
